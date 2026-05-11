@@ -1,1 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Líneas de énfasis | Universidad de Medellín</title>
+    <meta name="description" content="Pantalla de inicio para consultar líneas de énfasis académicas." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <div class="image-slot top-logo" data-asset="topLogo" aria-label="Logo superior">
+          <span>Logo superior</span>
+        </div>
+        <nav class="nav" aria-label="Navegación principal">
+          <button class="nav-item active" type="button">Inicio</button>
+          <button class="nav-item" type="button">Oferta</button>
+          <button class="nav-item" type="button">Inscripción</button>
+          <button class="nav-item" type="button">Contacto</button>
+        </nav>
+      </header>
 
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Universidad de Medellín</p>
+          <h1 id="hero-title">Líneas de énfasis</h1>
+          <p>Encuentra la ruta académica que conecta tus intereses con los retos profesionales del programa.</p>
+          <button class="primary-action" type="button">Conoce las líneas</button>
+        </div>
+        <div class="image-slot hero-image-slot" data-asset="heroImage" aria-label="Imagen principal">
+          <span>Imagen principal</span>
+        </div>
+      </section>
+
+      <main class="main-content">
+        <section class="intro-section" aria-labelledby="intro-title">
+          <div class="section-heading">
+            <p class="section-kicker">Elige tu perfil</p>
+            <h2 id="intro-title">Líneas disponibles</h2>
+          </div>
+          <div class="cards-list" id="emphasis-lines" aria-label="Listado de líneas de énfasis"></div>
+        </section>
+
+        <div class="vertical-line" aria-hidden="true"></div>
+
+        <aside class="news-section" aria-labelledby="news-title">
+          <div class="section-heading compact">
+            <p class="section-kicker">Noticias</p>
+            <h2 id="news-title">Información destacada</h2>
+          </div>
+          <div class="news-list" id="news-list" aria-label="Noticias destacadas"></div>
+        </aside>
+      </main>
+
+      <footer class="footer" aria-label="Información institucional">
+        <div class="footer-band" aria-hidden="true"></div>
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div>
+              <div class="image-slot footer-logo" data-asset="footerLogo" aria-label="Logo inferior">
+                <span>Logo inferior</span>
+              </div>
+              <p class="footer-summary">Institución de educación superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional.</p>
+            </div>
+
+            <div class="footer-columns">
+              <section class="footer-column">
+                <h2>Universidad de Medellín</h2>
+                <ul class="footer-list">
+                  <li>Carrera 87 N.° 30 - 65</li>
+                  <li>Medellín, Colombia</li>
+                  <li>PBX: +57 604 590 4500</li>
+                  <li>Línea gratuita nacional: 018000 180 099</li>
+                </ul>
+              </section>
+
+              <section class="footer-column">
+                <h3>Atención</h3>
+                <ul class="footer-list">
+                  <li>Admisiones y Registro</li>
+                  <li>Bienestar Universitario</li>
+                  <li>Facultades y programas</li>
+                  <li>Biblioteca</li>
+                </ul>
+              </section>
+
+              <section class="footer-column">
+                <h3>Síguenos</h3>
+                <p>Canales oficiales de la Universidad de Medellín.</p>
+                <div class="social-row" aria-label="Redes sociales">
+                  <span class="social-dot">f</span>
+                  <span class="social-dot">x</span>
+                  <span class="social-dot">in</span>
+                  <span class="social-dot">▶</span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="legal-note">© Universidad de Medellín. Espacios de certificación e imágenes listos para reemplazar por archivos oficiales.</p>
+            <div class="seal-row" aria-label="Certificaciones institucionales">
+              <span class="seal-placeholder">Sello<br />oficial</span>
+              <span class="seal-placeholder">Acreditación<br />alta calidad</span>
+              <span class="seal-placeholder">Certificación<br />institucional</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
