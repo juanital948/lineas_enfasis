@@ -109,6 +109,3 @@ Permite seleccionar cursos y confirmar la inscripción.
 
 Visualización organizada de las materias inscritas.
 
----
-
-Vigilada MinEducación
