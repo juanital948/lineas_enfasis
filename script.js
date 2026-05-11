@@ -7,14 +7,13 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 }/*EDITMODE-END*/;
 
 const ASSETS = {
-  // Agrega aquí tus rutas locales cuando tengas los archivos oficiales.
-  // Ejemplos: "assets/logo-superior.png", "assets/hero-inicio.jpg".
-  topLogo: "",
-  footerLogo: "",
-  heroImage: "",
-  newsOne: "",
-  newsTwo: ""
+  topLogo: "assets/logo-superior.png",
+  footerLogo: "assets/logo-inferior.png",
+  heroImage: "assets/hero.jpg",
+  newsOne: "assets/noticia1.jpg",
+  newsTwo: "assets/noticia2.jpg"
 };
+
 
 const emphasisLines = [
   {
