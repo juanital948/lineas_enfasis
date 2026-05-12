@@ -311,50 +311,28 @@
 
     /* FOOTER */
 
-    footer{
-      background:var(--azul-footer);
-      color:white;
-      padding:28px 70px 0;
+    footer {
+      background: var(--azul-oscuro);
+      color: white;
+      padding: 20px;
+    }
+    
+    .footer-logo img {
+      height: 50px;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .copy {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 12px;
     }
 
-    .footer-content{
-      display:grid;
-      grid-template-columns:1fr 2fr 1.2fr;
-      gap:35px;
-      align-items:center;
-    }
-
-    .footer-logo{
-      font-size:20px;
-      font-weight:800;
-      line-height:1;
-    }
-
-    .footer-logo span{
-      display:block;
-      font-size:10px;
-      letter-spacing:3px;
-      font-weight:400;
-    }
-
-    .footer-info p{
-      font-size:11px;
-      line-height:1.8;
-      margin-bottom:8px;
-      font-weight:500;
-    }
-
-    .footer-links{
-      margin-top:10px;
-    }
-
-    .footer-links a{
-      color:var(--amarillo);
-      font-size:11px;
-      display:block;
-      margin-bottom:8px;
-      font-weight:700;
-    }
 
     .cert{
       background:#f3f3f3;
@@ -610,17 +588,13 @@
 
   <!-- FOOTER -->
 
-  <footer>
-
+   <footer>
     <div class="footer-content">
-
       <div class="footer-logo">
-        Universidad<br>de Medellín
-        <span>CIENCIA Y LIBERTAD</span>
+        <img src="assets/logo-inferior.png" alt="Logo Universidad de Medellín">
       </div>
 
       <div class="footer-info">
-
         <p>
           <strong>Sede Medellín:</strong>
           Carrera 87 N° 30 - 65, Medellín - Colombia.
@@ -647,20 +621,17 @@
           </a>
 
         </div>
-
       </div>
 
       <div class="cert">
         Certificaciones de calidad<br>
         Ministerio de Educación Nacional
       </div>
-
     </div>
 
     <div class="copy">
       © 2026 Universidad de Medellín. Todos los derechos reservados.
     </div>
-
   </footer>
 
   <script>
